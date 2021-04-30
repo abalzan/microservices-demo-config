@@ -1,6 +1,12 @@
 server:
   port: 8181
 
+spring:
+  cloud:
+    config:
+      allow-override: true
+      override-none: true
+
 twitter-to-kafka-service:
   twitter-keywords:
     - Java
